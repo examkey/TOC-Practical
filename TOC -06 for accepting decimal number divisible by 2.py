@@ -1,4 +1,4 @@
-#Design a program for accepting decimal number divisible by 2. 
+#Design a program for accepting decimal number divisible by 2
 def stateA(n):
     if len(n) == 0:
         print('String is accepted')
