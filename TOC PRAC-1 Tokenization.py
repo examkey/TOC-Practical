@@ -15,7 +15,7 @@ paragraph="This is a simple paragraph.it contains several eorrs."
 word_tokens=paragraph.split()
 print (word_tokens)
 
-#paragraph tokenization of senteance
+#paragraph tokenization of sentence
 paragraph="This is simple a paragraph. it contains several words."
 word_tokens=paragraph.split(".")
 print(word_tokens)
