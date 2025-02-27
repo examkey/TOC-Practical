@@ -1,6 +1,6 @@
 #Generate a sequence of string
 
-#CODE-1
+#Write a Python Program To generate a String over {0 , 1, 2,3,4,...9}  
 def stringMatch(S):
     Io,hi=0,len(S)
     ans=[]
@@ -16,7 +16,7 @@ def stringMatch(S):
 S=(input("Enter your string value: "))
 print(stringMatch(S))
 
-#CODE-2
+#Create a program to generate a Random String using the random.choices() function
 import string
 import random
 
@@ -24,7 +24,7 @@ s=(int(input("Enter your string value: ")))
 ran="".join(random.choices(string.ascii_uppercase+string.digits,k=s))
 print("The randomly genrated string is: "+str(ran))
 
-#CODE-3
+#write a program to generate the random string in upper and lower case letters
 
 def Upper_Lower_String(length):
     result="".join((random.choice(string.ascii_lowercase)for x in range(length)))
