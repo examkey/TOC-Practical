@@ -1,3 +1,4 @@
+#write a program for generating regular expression for regular grammer
 
 import re
 s= 'Swayam: A online portal for course certiifcation'
