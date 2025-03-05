@@ -1,3 +1,5 @@
+#write a program for tokenization of given input
+
 #word Tokenization of letters
 word ="word"
 char_tokens=list(word)
